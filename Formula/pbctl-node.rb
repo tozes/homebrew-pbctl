@@ -1,7 +1,7 @@
 class Pbctl < Formula
     desc "Everything you need to get started with development at Productboard"
     homepage "https://github.com/productboard/pbctl"
-    url "https://github.com/productboard/pbctl/blob/master/release/pbctl-v0.0.0.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+    url "https://github.com/productboard/pbctl/blob/master/release/pbctl-v0.0.0.tar.gz"
     sha256 "f75a85872f0dab722264c5caa920338c113a05517535c981271585143baa1372"
     depends_on "productboard/pbctl/pbtl-node" => "12.21.0"
   

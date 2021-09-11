@@ -1,8 +1,8 @@
 class Pbctl < Formula
     desc "Everything you need to get started with development at Productboard"
     homepage "https://github.com/tozes/pbctl"
-    url "https://github.com/tozes/pbctl/blob/master/release/pbctl-v0.0.0.tar.gz"
-    sha256 "d185e519f448a586c5746c798b7520edc56d91160b0e3986a3689ef08e604f27"
+    url "https://github.com/tozes/pbctl/blob/main/release/pbctl-v0.0.0.tar.gz"
+    sha256 "0a55bd1642e01bf0d2f92d3fd42014f7307794122ffd2c52d22415c55a23e14e"
     depends_on "tozes/pbctl/pbtl-node" => "12.21.0"
   
     def install

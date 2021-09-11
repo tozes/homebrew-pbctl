@@ -3,7 +3,7 @@ class Pbctl < Formula
     homepage "https://github.com/tozes/pbctl"
     url "https://github.com/tozes/pbctl/blob/main/release/pbctl-v0.0.0.tar.gz"
     sha256 "0a55bd1642e01bf0d2f92d3fd42014f7307794122ffd2c52d22415c55a23e14e"
-    depends_on "tozes/pbctl/pbtl-node" => "12.21.0"
+    depends_on "tozes/pbctl/pbctl-node" => "12.21.0"
   
     def install
       inreplace "bin/pbctl", /^CLIENT_HOME=/, "export PBCTL_OCLIF_CLIENT_HOME=#{lib/"client"}\nCLIENT_HOME="
